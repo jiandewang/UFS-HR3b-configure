@@ -40,8 +40,8 @@
   n_sponge = 42
   nudge_qv = .true.
   nudge_dz = .false.
-  tau = 0.
-  rf_cutoff = 10.
+  tau = 2.5
+  rf_cutoff = 100
   d2_bg_k1 = 0.20
   d2_bg_k2 = 0.04
   kord_tm = -9
@@ -122,7 +122,7 @@
   ltaerosol    = .false.
   lradar       = .true.
   ttendlim     = -999
-  dt_inner     = 120
+  dt_inner     = 150
   sedi_semi    = .true.
   decfl        = 10
   oz_phys      = .false.
@@ -242,7 +242,7 @@
   nthresh    = 18
   ca_trigger = .true.
   nspinup    = 1
-  iseed_ca   = 1437471824
+  iseed_ca   = 1437371824
 /
 &cires_ugwp_nml
   knob_ugwp_solver  = 2
